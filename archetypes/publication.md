@@ -15,6 +15,9 @@ date = {{ dateFormat "2006-01-02" .Date }}
 awards = []
 
 more = ""
+
+selected = true
+local_pdf = true
 +++
 
 Abstract.
