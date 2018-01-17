@@ -1,10 +1,12 @@
 {{ define "main" }}
     <section id="header">
         <h1>{{ .Params.name }}</h1>
-        {{ .Params.position }} <br>
-        {{ .Params.affiliation }} <br>
-        {{ .Params.email }} <br>
-        {{ .Params.office }} <br>
+        <p>
+            {{ .Params.position }} <br>
+            {{ .Params.affiliation }} <br>
+            {{ .Params.email }} <br>
+            {{ .Params.office }} <br>
+        </p>
     </section>
 
     <section id="about">
